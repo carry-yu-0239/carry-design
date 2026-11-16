@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="./index.html">
+<a href="#start">
   <img src="./docs/assets/carry-design-cover.svg" alt="Carry Design：Lens 透镜、Lattice 点阵、Overture 序曲，三套原生 Web 设计系统" width="100%" />
 </a>
 
@@ -8,12 +8,12 @@
 
 <sub>CARRY DESIGN · NATIVE WEB DESIGN SYSTEMS</sub>
 
-# 给界面，一套自己的物理法则。
+<h1>给界面，一套自己的物理法则。</h1>
 
-**玻璃会折射。粒子会汇聚。光圈会开合。**
+<p><strong>玻璃会折射。粒子会汇聚。光圈会开合。</strong></p>
 
-三套从零构建的原生 Web 设计系统。<br />
-让材质有质感，让动作有逻辑，让每一次交互都值得感受。
+<p>三套从零构建的原生 Web 设计系统。<br />
+让材质有质感，让动作有逻辑，让每一次交互都值得感受。</p>
 
 <p>
   <a href="#start">开始体验</a>
@@ -216,7 +216,7 @@ field.keep(
 );
 ```
 
-这一示例用于已有 canvas、`.hero` 容器和已安装 three.js 依赖的工程。需要完整页面挂载与资源管理时，可直接参照 [展示源码](lattice/showcase/main.js)。
+这一示例用于已有 canvas、`.hero` 容器，并通过构建工具或 import map 解析 three.js 模块的工程。需要完整页面挂载与资源管理时，可直接参照 [展示源码](lattice/showcase/main.js)。
 
 点阵的 DOM 控件保留原生输入与焦点：按钮、滑块、开关、标签页、加载器、文字、命令面板等，共有 **14 张组件目录卡**。音效由 Web Audio 合成，默认关闭。`?record` 模式可使用确定性时间推进，便于逐帧捕获动画。
 
@@ -482,9 +482,9 @@ node ds-viewer/build.mjs overture
 
 <sub>ONE EXPOSURE · THREE DESIGN SYSTEMS</sub>
 
-### 光，有方向。点，有秩序。每一次触碰，都有回响。
+<h3>光，有方向。点，有秩序。每一次触碰，都有回响。</h3>
 
-**[回到顶部 ↑](#给界面一套自己的物理法则)**
+<p><strong><a href="#start">再次探索 ↑</a></strong></p>
 
 <sub>Made for the native web. Crafted to be explored.</sub>
 
